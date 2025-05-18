@@ -1,0 +1,198 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(180, 180, 180);
+}
+body {
+  background-color: black;
+  
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.login{
+  margin-top: 10px;
+}
+
+.login-box {
+  width: 350px;
+  height: 700px;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 12%; */
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* background-color: rgb(66, 66, 66); */
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero-image {
+  width: 50vw;
+   
+}
+
+a {
+  font-style: normal;
+  color: rgb(165, 165, 165);
+  height: max-content;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  font-size:13px;
+  margin-left: 15px;
+  margin-left: 15px;
+  
+}
+
+.h {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.separator hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.separator span {
+  margin: 0 10px;
+  color: #999;
+}
+
+.abhi {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  width: 100%;
+
+}
+
+
+.muttu {
+  display: flex;
+  justify-content: center;
+}
+
+.l {
+  background-color: rgb(0, 149, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 20px;
+  border-radius: 10px;
+  height: 35px ;
+  margin-bottom: 22px;
+  padding-top:6px;
+  text-align: center;
+
+  
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 8px;
+  
+}
+
+
+.forgot{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 54px;
+    font-weight: 600px solid;
+    
+}
+
+
+.account{
+  display: flex;
+  justify-content: center;
+}
+
+.inputs{
+  /* margin-bottom: 20px; */
+  padding-left: 6px;
+  height: 35px;
+  background-color: #121212;
+  border-left-color:white  ;
+  border-top-color: white;
+  margin-top: 0px;
+  outline: white;
+  color: white;
+  font-size: 11px;
+}
+
+.inputs:focus{
+  outline: none;
+  border: none;
+}
+
+@media (max-width:900px){
+  .image-box{
+    display: none;
+  }
+
+}
+
+.facebook a:hover{
+  text-decoration: none;
+}
+
+.forgot a:hover{
+  text-decoration: none;
+}
+
+
