@@ -1,2 +1,2 @@
-# instagram-copy
-i have built just instagram webpage to learn about html and css as a project
+# instagram-clone
+i have built a project to learn about html and css 
